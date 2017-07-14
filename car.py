@@ -1,4 +1,4 @@
-#CarWorldV1
+#CarWorld-A Car Renting System In Python
 carinhand = ['Duster', 'Audi', 'jaguar','auto']
 totalcar = ['Ford', 'Duster', 'Celerio', 'Audi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
