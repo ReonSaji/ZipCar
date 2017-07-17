@@ -9,7 +9,7 @@ Ford = {
     'Rent date': '1/06/2016',
     'Return Date': '14/06/2016',
     'Rented to': 'name',
-    'price': '$40',
+    'price': '$67',
     }
 Duster = {
     'Reg No.': 'KL 05 A 768',
