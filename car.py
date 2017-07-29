@@ -3,7 +3,7 @@ carinhand = ['Duster', 'Audi', 'jaguar','auto']
 totalcar = ['Ford', 'Duster', 'Celerio', 'Audi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
 Ford = {
-    'Reg No.': 'KL 05 6567',
+    'Reg No.': 'KL 05 5478',
     'Colour': 'Red',
     'Available': 'No',
     'Rent date': '1/06/2016',
