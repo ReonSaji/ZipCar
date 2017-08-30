@@ -1,4 +1,4 @@
-#CarWorld-A Car Renting System In Python
+#ZipCar-"Wheels When You Want Them"
 carinhand = ['Duster', 'Audi', 'jaguar','auto']
 totalcar = ['Ford', 'Duster', 'Celerio', 'Audi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
