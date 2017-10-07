@@ -22,7 +22,7 @@ Duster = {
     }
 Celerio = {
     'Reg No.': 'KL 05 A 3090',
-    'Colour': 'Green',
+    'Colour': 'Red',
     'Available': 'No',
     'Rent date': '1/06/2016',
     'Return Date': '14/06/2016',
