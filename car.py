@@ -13,7 +13,7 @@ Ford = {
     }
 Duster = {
     'Reg No.': 'KL 05 A 768',
-    'Colour': 'White',
+    'Colour': 'whitee',
     'Available': 'Yes',
     'Rent date': '1/06/2016',
     'Return Date': '14/06/2016',
