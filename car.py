@@ -1,6 +1,6 @@
 #ZipCar-"Wheels When You Want Them"
 carinhand = ['Duster', 'Audi', 'jaguar','auto']
-totalcar = ['Ford', 'Duster', 'tyio', 'Audi', 'Jaguar']
+totalcar = ['Ford', 'Duster', 'tyio', 'Audi','Kiwi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
 Ford = {
     'Reg No.': 'KL 05 5478',
