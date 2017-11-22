@@ -141,11 +141,11 @@ while (ch=='y' or ch=='Y'):
         if check==1:
             print "number of available cars :",len(carinhand)
         elif check==2:
-            print "number of rented cars :" , len (carinrent)
+            print "number of rented cars :" , len(carinrent)
         elif check==3:
-            print "total number of car:" ,len(totalcar)
+            print "total number of car:" , len(totalcar)
     elif choice==5:
         submitcar()
     else:
             exit()
-ch=raw_input("do you want to continueY|N:")
+ch=raw_input("do you want to continue Y|N:")
