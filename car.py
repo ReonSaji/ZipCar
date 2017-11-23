@@ -1,7 +1,6 @@
 #ZipCar-"Wheels When You Want Them"
 carinhand = ['Duster', 'Audi', 'jaguar','auto']
-totalcar = ['Ford', 'Duster', 'Thiyo
-            ', 'Audi','Kiwi', 'Jaguar']
+totalcar = ['Ford', 'Duster', 'tyio', 'Audi','Kiwi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
 Ford = {
     'Reg No.': 'KL 05 5478',
@@ -14,7 +13,7 @@ Ford = {
     }
 Duster = {
     'Reg No.': 'KL 05 A 768',
-    'Colour': 'whitee',
+    'Colour': 'White',
     'Available': 'Yes',
     'Rent date': '1/06/2016',
     'Return Date': '14/06/2016',
@@ -64,11 +63,17 @@ def carlist():
         elif choice == 3:
             for l in carinrent:
                 print (l)
+        elif choice == 4:
+            menu()
             
     ch = raw_input('Do you want to check another list ??Y|N:')
 
 
 def cardetails():
+  
+    print "-----CAR DETAILS-------"
+   
+  
     ch = 'y'
     while ch == 'y' or ch == 'Y':
         for i in totalcar:
@@ -80,12 +85,16 @@ def cardetails():
 
 
 def rentcar():
+    print "-----RENT A CAR MENU------"
     b = 'a'
     ch = 'y'
     while ch == 'y' or ch == 'Y':
+        print "**press 'b' Back to MAIN MENU"
         for i in carinhand:
             print i
         choice1 = raw_input('Enter name of car')
+        if choice1== 'b' or choice1 =='B':
+          menu()
         choice = eval(choice1)
         print choice1
         for (k, v) in choice.items():
@@ -124,29 +133,33 @@ def submitcar():
 
         ch = raw_input('Do you want to check another Car ??Y|N:\n')
 
+def menu():
+  print "-------MAIN MENU------"
+  ch='y'
+  while (ch=='y' or ch=='Y'):
+      print "1.List of car \n2.Rent a car\n3.Details of car\n4.number of cars\n5.Return a car "
+      choice=input("Enter your choice:")
+      if choice==1:
+          carlist()
+      elif choice==2:
+          rentcar()
+      elif choice==3:
+          cardetails()
+      elif choice==4:
+          print"1.number of available cars\n2.number of rented cars \n3.totatal number of cars"
+          check=input("enter tour choice")
+          if check==1:
+              print "number of available cars :",len(carinhand)
+          elif check==2:
+              print "number of rented cars :" , len(carinrent)
+          elif check==3:
+              print "total number of car:" , len(totalcar)
+      elif choice==5:
+          submitcar()
+      else:
+              exit()
+  ch=raw_input("do you want to continue Y|N:")
 print"\t\t CAR RENTING SYSTEM IN PYTHON\t\t\t\t\t"
 print"\t\t------------------------------------\t\t\t\t\t\t"
-ch='y'
-while (ch=='y' or ch=='Y'):
-    print "1.List of car \n2.Rent a car\n3.Details of car\n4.number of cars\n5.Return a car "
-    choice=input("Enter your choice:")
-    if choice==1:
-        carlist()
-    elif choice==2:
-        rentcar()
-    elif choice==3:
-        cardetails()
-    elif choice==4:
-        print"1.number of available cars\n2.number of rented cars \n3.totatal number of cars"
-        check=input("enter tour choice")
-        if check==1:
-            print "number of available cars :",len(carinhand)
-        elif check==2:
-            print "number of rented cars :" , len(carinrent)
-        elif check==3:
-            print "total number of car:" , len(totalcar)
-    elif choice==5:
-        submitcar()
-    else:
-            exit()
-ch=raw_input("do you want to continue Y|N:")
+menu()
+
