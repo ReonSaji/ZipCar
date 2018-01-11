@@ -35,7 +35,7 @@ Audi = {
     'Available': 'Yes',
     'Rent date': '1/06/2016',
     'Return Date': '14/06/2016',
-    'Rented to': 'NIL',
+    'Rented to': 'NILc',
     'price': '$70',
     }
 Jaguar = {
