@@ -8,7 +8,7 @@ Ford = {
     'Available': 'No',
     'Rent date': '1/06/2016',
     'Return Date': '14/06/2016',
-    'Rented to': 'nuik',
+    'Rented to': 'nunk',
     'price': '$67',
     }
 Duster = {
