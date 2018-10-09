@@ -1,5 +1,5 @@
 #ZipCar-" Wheels When You Wan;ot Themslwepo"
-carinhand = ['Duster', 'Audi', 'Jaagajk','auto']
+carinhand = ['Duster', 'Audi', 'Duster','auto']
 totalcar = ['Ford', 'uster', 'tyio', 'Audi','Kiwi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
 Ford = {
