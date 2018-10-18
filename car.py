@@ -128,13 +128,13 @@ def submitcar():
             carinhand.append(choice1)
             choice['Available'] = 'Yes'
             choice['Rented to'] = "Nil"
-            choice['Rent date'] = "nil"
+            choice['Rent date'] = "Nil"
             choice['Return Date'] = "Nil"
 
         ch = raw_input('Do you want to check another Car ??Y|N:\n')
 
 def menu():
-  print "-------MAIN MENU------"
+  print "------MAIN MENU-----"
   ch='y'
   while (ch=='y' or ch=='Y'):
       print "1.List of car \n2.Rent a car\n3.Details of car\n4.number of cars\n5.Return a car "
@@ -146,8 +146,8 @@ def menu():
       elif choice==3:
           cardetails()
       elif choice==4:
-          print"1.number of available cars\n2.number of rented cars \n3.totatal number of cars"
-          check=input("enter tour choice")
+          print"1.number of available cars\n2.number of rented cars \n3.total number of cars"
+          check=input("enter your choice")
           if check==1:
               print "number of available cars :",len(carinhand)
           elif check==2:
