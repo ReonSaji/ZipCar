@@ -1,5 +1,5 @@
 
-carinhand = ['Duster', 'Audi', 'Duster','autoL']
+carinhand = ['Duster', 'Audi', 'Duster','autoL']h
 totalcar = ['Ford', 'uster', 'tyio', 'Audi','Kiwi', 'Jaguar']
 carinrent = ['Ford', 'Celerio']
 Ford = {
